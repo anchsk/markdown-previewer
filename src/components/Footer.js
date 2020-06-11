@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <p>
         This Markdown Previewer was made for <a href="https://freecodecamp.org" taget="_blank" rel="noopener norefferer">freeCodeCamp</a>
       </p>
-    </div>
+    </footer>
   );
 };
 
