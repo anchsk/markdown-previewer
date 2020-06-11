@@ -1,0 +1,76 @@
+* {
+  //can't set margin: 0; padding: 0; beacuse it will break the marked.js result
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(240, 245, 245);
+  // background-color: rgb(236, 242, 249)
+}
+
+.header {
+  .title {
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+  }
+  p {
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 12px 0px;
+  }
+}
+
+main {
+  // background-color: rgb(185, 233, 249);
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.left {
+  width: 50%;
+  padding: 0 20px 0 20px;
+  max-width: 500px;
+}
+
+textarea {
+  width: 100%;
+  padding: 6px 12px 6px 12px;
+}
+
+.right {
+  padding: 16px;
+  padding-top: 0;
+  background-color: white;
+  width: 50%;
+  max-width: 500px;
+  border-radius: 6px;
+}
+
+.footer {
+  box-sizing: border-box;
+  color: gray;
+  height: 48px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a:link {
+    color: rgb(91, 91, 91);
+  }
+  a:visited {
+    color: darkgray;
+  }
+}
+
+code {
+  font-family: monospace;
+}
